@@ -32,7 +32,18 @@ public class Constants {
 	/** The Constant SOUTH. Represents S*/
 	public static final char SOUTH = 'S';
 
+	
+
 	/*
 	 * DIRECTION CONSTANTS -- END
+	 */
+	
+	/*
+	 * COORDINATE CONSTANTS -- START
+	 */
+	public static final int X = 1;
+	public static final int Y = 1;
+	/*
+	 * COORDINATE CONSTANTS -- END
 	 */
 }
