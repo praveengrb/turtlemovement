@@ -4,10 +4,12 @@
 * Proprietary and confidential
 * 
 *******************************************************/
+
 /**
- * Test classes contains the unit testing classes.
+ * Service classes contains the business classes
+ * 
+ * @since 1.0
  * @author Praveen,Sankarasubramanian
  * @version 1.0
- * @since 1.0
  */
-package test.praveen.service;
+package praveen.service;
