@@ -6,6 +6,7 @@
 *******************************************************/
 package praveen.model;
 
+import praveen.base.IBase;
 import praveen.common.Constants;
 
 
@@ -16,7 +17,7 @@ import praveen.common.Constants;
  * @version 1.0
  * @since 1.0
  */
-public class Turtle {
+public class Turtle implements IBase{
 
 	/*
 	 * Variable declarations -- start
@@ -113,7 +114,7 @@ public class Turtle {
        else if(direction==Constants.SOUTH)
             direction=Constants.EAST;
         else direction=Constants.NORTH;
-        System.out.println(direction);
+        log().info(direction);
     }
     
     /**
@@ -127,7 +128,7 @@ public class Turtle {
         else if(direction==Constants.SOUTH)
             direction=Constants.WEST;
         else direction=Constants.NORTH;
-        System.out.println(direction);
+        log().info(direction);
     }
     
     /**
