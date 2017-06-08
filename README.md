@@ -16,10 +16,23 @@ final position of turtle and printing the grid state will be an added plus. When
 obstacle, movement is not possible.
 
 
-#  INPUT
+#  Input
 
 FFFRRFLF
 
-#  OUTPUT
+#  Output
 
 2,3 E
+
+# Procedure to execute
+
+1) This is a maven project. Kindly install maven.
+2) For simplicity, Please use IDE like eclipse.
+3) To try the app, modify the dir string present in Main class(Dev) is present under the package praveen.dev.
+
+# Please note that
+
+The constants could be modified configuration.properties.
+By default this application is integrated with ConsoleAppender. Based on the requirement please modify it.
+
+ 
