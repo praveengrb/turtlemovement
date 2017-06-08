@@ -40,7 +40,7 @@ public class TurtleMovementManager implements IBase{
 	 * @return the final position
 	 */
 	public Turtle getFinalPosition(String dir, Turtle turtle) {
-		if(dir!=null&&!"".equalsIgnoreCase(dir)&&!dir.isEmpty()){
+		if(dir!=null&&!"".equalsIgnoreCase(dir)&&!dir.isEmpty()&&turtle!=null){
 			for (int i = 0; i < dir.length(); i++) {
 				moveTurtle(dir.charAt(i),turtle);
 			}
@@ -57,7 +57,7 @@ public class TurtleMovementManager implements IBase{
 	 * 
 	 * @param turtle the turtle
 	 */
-	public void moveTurtle(char dir, Turtle turtle){
+	private void moveTurtle(char dir, Turtle turtle){
 		if (dir== Constants.FORWARD)
 			turtle.moveForward();
 		else if (dir == Constants.LEFT)

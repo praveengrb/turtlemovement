@@ -10,7 +10,6 @@ import praveen.model.Turtle;
 import praveen.service.TurtleMovementManager;
 
 /**
- * @author Praveen,Sankarasubramanian
  *
  * @author Praveen,Sankarasubramanian
  * @version 1.0
@@ -21,8 +20,8 @@ public class Dev {
 	/**
 	 * 
 	 */
-	public Dev() {
-		
+	private Dev() {
+		super();
 	}
 
 	/**
